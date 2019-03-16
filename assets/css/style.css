@@ -1,0 +1,237 @@
+body
+{
+  margin: 0;
+  padding: 0;
+}
+/* ...................... Header */
+header
+{
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+}
+
+.container {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/* ...................... Navbar */
+
+.navbar-brand img
+{
+  width: 15%;
+  height: 13%;
+  border-radius: 30%;
+  margin-left: 10px;
+}
+
+.nav-item
+{
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover,
+.navbar-light .navbar-nav .nav-item.active .nav-link
+{
+  background: #262626;
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link
+{
+  color: #262626;
+  padding: 5px 15px;
+}
+/* Hamburguer menu */
+
+.navbar-light .navbar-toggler
+{
+  border: none !important;
+  color: #fff;
+  border: 2px solid #7f7f7f;
+  border-radius: 0;
+}
+.navbar-collapse,
+.navbar-toggler-icon
+{
+  background: #fff;
+}
+
+
+/* ...................... Banner */
+.banner
+{
+  position: relative;
+  background: url('../images/monkees.jpg') no-repeat center center fixed;
+  height: 100vh;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner p
+{
+  margin: 35% 2% 10%;
+  padding: 0;
+  font-size: 1.1em;
+  font-weight: 1000;
+  color: #fff;
+  text-align: center;
+}
+
+.btnMore
+{
+  width: 100%;
+  display: inline-block;
+  background: #ff2670;
+  color: #fff;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border: none;
+  font-weight: 800;
+  text-align: center;
+}
+
+.btnMore:hover
+{
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+}
+/* ---- Sections ----- */
+.video-wrapper,
+.band-wrapper,
+.music-wrapper
+{
+  text-align: center;
+}
+
+.band-wrapper h1,
+.music-wrapper h1
+{
+  color: #fff;
+  margin: 25px auto 10px;
+}
+/* ...................... Video section */
+.video-wrapper
+{
+  background-color: lightgrey;
+  width: 100%;
+  height: 40vh;
+}
+.video-wrapper video
+{
+  width: 90%;
+  margin-top: 25px;
+}
+ /* ...................... The band section*/
+ .band-wrapper
+ {
+   background-image: url('../images/bandBackground.jpg');
+   height: 90vh;
+   background-position: center;
+   background-repeat: no-repeat;
+   padding: 25px 0 200px;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   width: 100%;
+ }
+
+.flex-container
+{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.flex-container div
+{
+  max-width: 300px;
+  margin: 3px auto;
+
+}
+
+.flex-container div a img
+ {
+   width: 50%;
+   border-radius: 50%;
+   padding: 5px;
+   display: inline-block;
+   box-shadow: 2px 2px #fafafa;
+ }
+  /* ...................... The music section*/
+.music-wrapper
+{
+  background-image: url('../images/guitar.jpg');
+  height: 60vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 25px 0 200px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+.music-wrapper h1
+{
+  position: absolute;
+  left: 10%;
+  top: 23%;
+}
+.btnMusic
+{
+  display: inline-block;
+  background: #671111cc;
+  color: #fff;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border: none;
+  font-weight: 800;
+  position: absolute;
+  left: 20%;
+  top: 57%;
+}
+
+.btnMusic:hover
+{
+  color: #fff;
+  background-color: #671111fa;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* ...................... footer */
+footer
+{
+  height: 10vh;
+}
+.socail-links
+{
+  text-align: center;
+}
+.socail-links li a i {
+  width: 32px;
+  height: 32px;
+  margin-top: 12px;
+  padding: 12px 0;
+  border-radius: 50px;
+  font-size: 13px;
+  line-height: 7px;
+  text-align: center;
+  color: #fafafa;
+  background-color: #8f8f8f;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+/* ------ Media Query ------ */
