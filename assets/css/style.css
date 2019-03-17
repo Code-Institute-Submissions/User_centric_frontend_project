@@ -217,14 +217,23 @@ header
 .container {
   width: 90%;
 }
-.aboutUs h1
+.aboutUs h1,
+.ourMusic h1
 {
   margin-top: 20%;
+  margin-bottom: 5%;
 }
 .flex-bandPhotos div img
 {
   margin: 5px auto 15px;
   border: 2px solid #fafafa;
+}
+/* ----------- ---------- --------- Our Music page  */
+.ourMusic div div a img
+{
+  margin-bottom: 20px;
+  width: 50%;
+  height: 50%;
 }
 /* ...................... footer */
 footer
@@ -302,7 +311,8 @@ footer
       box-shadow: 2px 2px #fafafa;
     }
     /* ----------- ---------- --------- ABout US page  */
-    .aboutUs h1
+    .aboutUs h1,
+    .ourMusic h1
     {
       margin-top: 10%;
     }
