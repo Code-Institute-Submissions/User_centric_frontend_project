@@ -130,8 +130,9 @@ header
 }
 .video-wrapper video
 {
-  width: 90%;
-  margin-top: 25px;
+    width: 80%;
+    height: 80%;
+    margin:auto;
 }
  /* ...................... The band section*/
  .band-wrapper
@@ -339,7 +340,8 @@ footer
     .video-wrapper video
     {
       width: 50%;
-      margin: 200px auto;
+      height: 50%;
+      margin: 10% auto;
     }
     /* The band section */
     .band-wrapper h1
