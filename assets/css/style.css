@@ -63,7 +63,6 @@ header
   background: #fff;
 }
 
-
 /* ...................... Banner */
 .banner
 {
@@ -148,28 +147,22 @@ header
    background-size: cover;
    width: 100%;
  }
-
-.flex-container
-{
-  display: flex;
-  flex-wrap: wrap;
-  align-content: flex-start;
+.band-members {
+  width: 80%;
 }
-.flex-container div
-{
-  max-width: 300px;
-  margin: 3px auto;
-
-}
-
-.flex-container div a img
+.band-members a img
  {
-   width: 50%;
-   height: 100%;
+   width: 60%;
+   height: 30%;
    border-radius: 50%;
-   padding: 5px;
+   padding: 3px;
+   margin: 10px;
    display: inline-block;
    box-shadow: 2px 2px #fafafa;
+ }
+ .band-members a img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  transform: scale(1.1);
  }
 /* ...................... The music section*/
 .music-wrapper
@@ -178,12 +171,12 @@ header
   height: 60vh;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
   padding: 25px 0 200px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-  position: relative;
 }
 .music-wrapper h1
 {
@@ -224,9 +217,6 @@ header
 }
 
 /* ----------- ---------- --------- ABout US page  */
-.container {
-  width: 100%;
-}
 
 .flex-bandPhotos div img
 {
@@ -331,11 +321,10 @@ footer
 @media only screen and (min-width: 768px) {
 
   /* Landing page */
-  .container
-   {
-    width: 80%;
-    margin-top: 20px;
-  }
+    .header
+    {
+      width: 80%;
+    }
     .intro
     {
       width: 80%;
