@@ -19,6 +19,7 @@ header
 .container {
   padding-right: 0;
   padding-left: 0;
+  min-height: calc(100vh - 89px);
 }
 
 /* ...................... Navbar */
@@ -138,10 +139,10 @@ header
  .band-wrapper
  {
    background-image: url('../images/bandBackground.jpg');
-   height: 90vh;
+   height: auto;
    background-position: center;
    background-repeat: no-repeat;
-   padding: 25px 0 200px;
+   padding: 25px 0 20px;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -149,7 +150,7 @@ header
    width: 100%;
  }
 .band-members {
-  width: 80%;
+  width: 60%;
 }
 .band-members a img
  {
@@ -294,12 +295,13 @@ form{
 /* ...................... footer */
 footer
 {
+  background: #e6e1e1;
   height: 10vh;
 }
 .socail-links
 {
-  margin-top: 5px;
   text-align: center;
+  padding-top: 7px;
 }
 .socail-links li a i {
   width: 32px;
@@ -311,7 +313,7 @@ footer
   line-height: 7px;
   text-align: center;
   color: #fafafa;
-  background-color: #8f8f8f;
+  background-color: #000;
   transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
   -webkit-transition: all 0.35s ease-in-out;
@@ -348,25 +350,7 @@ footer
     {
       margin-top: 10%;
     }
-   .flex-container
-   {
-     width: 70%;
-     margin: 5% auto;
-   }
-   .flex-container div
-   {
-     margin: 10px auto 80px;
 
-   }
-
-   .flex-container div a img
-    {
-      width: 50%;
-      border-radius: 50%;
-      padding: 5px;
-      display: inline-block;
-      box-shadow: 2px 2px #fafafa;
-    }
     /* ----------- ---------- --------- ABout US page  */
     .aboutUs h1,
     .ourMusic h1,
@@ -387,5 +371,14 @@ footer
       margin-bottom: 20px;
     }
     /* ----------- ---------- --------- Booking page  */
-
+    /* ----------- ---------- --------- footer  */
+    footer
+    {
+      height: 8vh;
+    }
+    .socail-links
+    {
+      text-align: center;
+      padding-top: 7px;
+    }
 }
