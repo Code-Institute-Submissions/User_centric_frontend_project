@@ -42,6 +42,7 @@ used directly from Wikipedia.
 
 The background image in the band section it's by Snapwire from www.pexels.com.
 The background image in listen to our music section it's by and from www.pexels.com.
+Four images in the gallery page, was taking from the band Twitter on https://twitter.com/TheMonkees
 
 # Media
 All media mostly all media except where mentioned above, is taking from code Institute, for this project purposes. The hamburger menu was inspired from https://www.youtube.com/watch?v=HAUB4CRfOr0
