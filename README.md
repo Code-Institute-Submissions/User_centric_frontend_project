@@ -20,7 +20,7 @@ Additionally, the page contain a section for the band music link. f Finally, at 
 2. CSS3
 3. bootstrap 4.1.3
 
-##Features
+## Features
 The site has hamburger menu on all screen sizes, that's as the home page has most links
 to other pages. Responsive, using mobile-first design.
 
@@ -42,11 +42,11 @@ used directly from Wikipedia.
 
 The background image in the band section it's by Snapwire from www.pexels.com.
 The background image in listen to our music section it's by and from www.pexels.com.
-Four images in the gallery page, was taking from the band Twitter on https://twitter.com/TheMonkees
+Four images in the gallery page, was taking from the band Twitter on, https://twitter.com/TheMonkees
 
-# Media
-All media mostly all media except where mentioned above, is taking from code Institute, for this project purposes. The hamburger menu was inspired from https://www.youtube.com/watch?v=HAUB4CRfOr0
+## Media
+All media mostly all media except where mentioned above, is taking from code Institute, for this project purposes. The hamburger menu was inspired from, https://www.youtube.com/watch?v=HAUB4CRfOr0
 
-##Acknowledgements
+## Acknowledgements
 Some of the style as full-width background blend mode, is been inspired from www.w3schools.com.
 Thanks to my Mentor Anthony Ngene for his guidelines and support throw this project.
