@@ -196,7 +196,6 @@ header {
 .gallery h1,
 .booking h1 {
   margin-top: 20%;
-  /* margin-bottom: 5%; */
 }
 /* .................................... About Us page */
 .aboutUs {
@@ -354,7 +353,6 @@ footer {
       width: 80%;
       height: 80%;
       margin: 50px auto;
-      /* max-height: 80%; */
     }
     /* The band section */
     .band-wrapper h1 {
@@ -437,7 +435,6 @@ footer {
   .gallery h1,
   .booking h1 {
     margin-top: 8%;
-    /* margin-bottom: 5%; */
   }
 
 }
