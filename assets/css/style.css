@@ -244,7 +244,8 @@ header {
 }
 .audio-div audio {
   padding-top: 20px;
-  margin: 2px;
+  margin: 2px auto;
+  display: block;
 }
 @keyframes spin {
   from {
@@ -395,6 +396,11 @@ footer {
     .gallery h1,
     .booking h1 {
       margin-top: 13%;
+    }
+    /* Music page */
+    .audio-div audio {
+      margin: 4px auto;
+      display: inline-block;
     }
     /* Tour Dates page */
     .table table,
