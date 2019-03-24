@@ -309,7 +309,7 @@ tr:hover {
 form {
   background-color: #41474c;
   padding: 25px;
-  margin: auto;
+  margin: 0 auto 35px ;
   width: 90%;
 }
 .text-left-h5 {
