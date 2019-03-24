@@ -247,6 +247,9 @@ header {
   margin: 2px auto;
   display: block;
 }
+.audio-div audio:last-child {
+  margin-bottom: 40px;
+}
 @keyframes spin {
   from {
     transform: rotate(0deg);
@@ -451,5 +454,8 @@ footer {
   .booking h1 {
     margin-top: 8%;
   }
-
+  .audio-div audio {
+    margin: 4px auto;
+    display: block;
+  }
 }
