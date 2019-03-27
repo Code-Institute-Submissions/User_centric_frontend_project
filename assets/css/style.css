@@ -1,12 +1,13 @@
 body {
   margin: 0;
   padding: 0;
-  min-height: calc(100vh - 89px);
 }
 * {
   box-sizing: border-box;
 }
-
+.container {
+  min-height: calc(100vh - 89px);
+}
 /* .................................... Header */
 .header {
   position: absolute;
@@ -56,7 +57,7 @@ body {
   position: relative;
   background: url('../images/monkees.jpg') no-repeat center center fixed;
   background-color: rgb(0,0,0,.8);
-  background-blend-mode: overlay;
+  background-blend-mode: screen, overlay;
   height: 100vh;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -395,6 +396,13 @@ footer {
      .band-wrapper div div span {
       color: #000;
     }
+    /* pages header subject margin */
+    .aboutUs h1,
+    .our-music h1,
+    .gallery h1,
+    .booking h1 {
+      margin-top: 80px;
+    }
     /* Music page */
     .audio-div audio {
       margin: 4px auto;
@@ -439,6 +447,7 @@ footer {
   .band-wrapper h1 {
     margin-top: 35px;
   }
+
   .card {
     margin: 70px auto;
    }
