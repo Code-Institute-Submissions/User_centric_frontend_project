@@ -15,6 +15,17 @@ Six pages, for the band fans to see more of the band. Scrolling down at the home
 would show the fans and the users, a video of the band playing automatically, and the band members.
 Additionally, the page contain a section for the band music link. Finally, at the footer of the page, three social media links of the band, which are Facebook, Youtube, and twitter.
 
+## UX Perspective
+User stories, is another important part of the UX design. In this section, features will be written from website visitor and user perspective, as follow:
+
+When I visit a site, I would like to have an idea of what is the site about, an easy way to navigate to around the site, and an easy efficient way to fill up any form. Additionally, I want to be able to have a solid idea about what services and resources are available by visiting the site.
+
+ As a user visiting a musical band website, I would like to have a short idea about the band history, as the landing page open in my browser, and a navbar to easily navigate to other pages. when I start scrolling the home page, I want to have short information about the band, such as a video, band members, and the band latest album by a link to listen to their music. As a fan, I would like to visit the website, to listen to their music, and know their tour dates, so I can attend their upcoming events.
+
+In addition, as a user I would like to have the website well designed cross multiple platforms, either I'm visiting the site via my mobile, or on my ipad, or checking the site on my laptop. Therefore, responsive design is essential.
+
+The following link shows the initial mockups for The Monkees website using balsamiq 3: https://github.com/Tariqalrehily/User_centric_frontend_project/blob/master/TheMonkesdProjectMockups.pdf
+
 ## Technologies
 1. HTML5
 2. CSS3
@@ -39,7 +50,7 @@ https://github.com/Tariqalrehily/User_centric_frontend_project.git or download Z
 
 ## Credits
 The information display on the home page in the landing section plus the about us section is been
-used directly from Wikipedia.
+used directly from Wikipedia. Some of the style as full-width background blend mode, is been inspired from www.w3schools.com.
 
 The background image in the band section it's by Snapwire from www.pexels.com.
 The background image in listen to our music section it's by and from www.pexels.com.
@@ -49,5 +60,4 @@ Four images in the gallery page, was taking from the band account on Twitter, ht
 All other media, except where mentioned above, is taking from code Institute, for this project purposes. The hamburger menu was inspired from, https://www.youtube.com/watch?v=HAUB4CRfOr0
 
 ## Acknowledgements
-Some of the style as full-width background blend mode, is been inspired from www.w3schools.com.
 Thanks to my Mentor Anthony Ngene for his guidelines and support throw this project.

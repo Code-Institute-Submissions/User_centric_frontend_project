@@ -1,34 +1,30 @@
 body {
   margin: 0;
   padding: 0;
+  min-height: calc(100vh - 89px);
 }
 * {
   box-sizing: border-box;
 }
 
 /* .................................... Header */
-header {
+.header {
   position: absolute;
-  z-index: 3;
+  z-index: 2;
+  left: 0;
+  right: 0;
   width: 100%;
-}
-.container {
-  padding-right: 0;
-  padding-left: 0;
-  min-height: calc(100vh - 89px);
+  height: 40px;
+  margin: auto;
 }
 /* .................................... Navbar */
 .navbar-brand img{
-  width: 15%;
-  height: auto;
+  width: 55px;
+  height: 40px;
   border-radius: 30%;
 }
 .navbar-brand {
   margin-right: 0;
-  margin-left: -2px;
-}
-.navbar-toggler {
-  margin-left: -40px;
 }
 .nav-item{
   font-weight: 800;
@@ -112,8 +108,6 @@ header {
 }
 .video-wrapper video {
   width: 80%;
-  max-width: 80%;
-  max-height: 80%;
   margin: 10px auto;
 }
 /* ...................... The band section */
@@ -152,9 +146,9 @@ header {
    box-shadow: 2px 2px #fafafa;
  }
 .card:hover {
-  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-  background-color: #563939;
-  cursor: pointer;
+   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+   background-color: #563939;
+   cursor: pointer;
  }
 /* ...................... The music section */
 .music-wrapper {
@@ -186,7 +180,6 @@ header {
   left: 20%;
   top: 57%;
 }
-
 .btn-music:hover {
   color: #fff;
   background-color: #671111fa;
@@ -198,7 +191,7 @@ header {
 .our-music h1,
 .gallery h1,
 .booking h1 {
-  margin-top: 20%;
+  margin-top: 80px;
 }
 /* .................................... About Us page */
 .aboutUs {
@@ -258,7 +251,6 @@ header {
     transform: rotate(359deg);
   }
 }
-
 /* .................................... Gallery Page */
 .band-gallery div img {
   width: 80%;
@@ -269,8 +261,8 @@ header {
   border-radius: 4px;
 }
 .band-gallery div img:hover {
- box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.5);
- transform: scale(1.1);
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.5);
+  transform: scale(1.1);
 }
 /* .................................... Tour Dates Page */
 .table table,
@@ -321,6 +313,7 @@ form {
 footer {
   background: #e6e1e1;
   padding: 10px;
+  width: 100%;
 }
 .socail-links {
   text-align: center;
@@ -347,12 +340,22 @@ footer {
   color: #000;
   border: 1px solid #000;
 }
-
-/* ------ Media Query ------ */
+/* ---------- Media Query ------------ */
 @media only screen and (min-width: 768px) {
 /* Landing page */
     .header {
-      width: 80%;
+      position: absolute;
+      left: 0;
+      right: 0;
+      width: 95%;
+      margin: 5px auto 0;
+    }
+    .navbar-brand {
+      margin-right: 0;
+      margin-left: 0;
+    }
+    .navbar-toggler {
+      margin-left: 0;
     }
     .intro {
       margin: auto;
@@ -360,7 +363,6 @@ footer {
     /* Video section */
     .video-wrapper {
       width: 100%;
-
     }
     .video-wrapper video {
       width: 80%;
@@ -377,9 +379,9 @@ footer {
       height: auto;
    }
    .card:hover {
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-    background-color: #563939;
-    cursor: pointer;
+      box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+      background-color: #563939;
+      cursor: pointer;
    }
    .card a img {
       width: 60%;
@@ -392,13 +394,6 @@ footer {
     }
      .band-wrapper div div span {
       color: #000;
-    }
-    /* pages header */
-    .aboutUs h1,
-    .our-music h1,
-    .gallery h1,
-    .booking h1 {
-      margin-top: 13%;
     }
     /* Music page */
     .audio-div audio {
@@ -419,22 +414,21 @@ footer {
       width: 90%;
       margin: 0 auto 10px;
     }
-    /* footer  */
-    footer {
-      /* height: 10vh; */
-    }
     .socail-links {
       text-align: center;
       padding-top: 7px;
     }
+    footer {
+      padding: 20px;
+    }
 }
-
 @media only screen and (min-width: 1024px) {
   .header {
-    width: 70%;
-  }
-  .navbar-light {
-    margin-top: 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 80%;
+    margin: 5px auto 0;
   }
   .intro p {
     width: 70%;
@@ -446,14 +440,11 @@ footer {
     margin-top: 35px;
   }
   .card {
-     margin: 70px auto;
+    margin: 70px auto;
    }
-  .aboutUs h1,
-  .our-music h1,
-  .gallery h1,
-  .booking h1 {
-    margin-top: 8%;
-  }
+  .video-wrapper video {
+    max-width: 800px;
+   }
   .audio-div audio {
     margin: 4px auto;
     display: block;
